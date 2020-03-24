@@ -84,5 +84,54 @@ body, html{
 .myclass{
    width: 100%
 }
+.neobtn-thick .btn {
+  position: absolute;
+  top: 93%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.neobtn-thick .btn:hover {
+  background-color: red;
+}
+   body {
+    background-image: url(images/nature.jpg); /* Путь к фоновому изображению */
+    background-color: #4c4c4c; /* Цвет фона */
+   }
+   .box {
+  background: url(images/nature.jpg);
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+	.box2 {
+  background: url(images/pen.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+	.box3 {
+  background: url(images/key.jpg);
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+	.panel {
+  width: 300px;
+  padding: 20px;
+  border: .5px solid #fff;
+  color: #3с3с3с;
+  text-align: center;
 
-
+}
+.myclass2{
+   width: 20%;
+   display: block;
+   margin : auto;
