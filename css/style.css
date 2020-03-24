@@ -81,4 +81,8 @@ body, html{
 .dropdown_menu:hover ul{
 	display: block;
 }
+.myclass{
+   width: 100%
+}
+
 
