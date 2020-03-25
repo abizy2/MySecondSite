@@ -86,7 +86,7 @@ body, html{
 }
 .neobtn-thick .btn {
   position: absolute;
-  top: 93%;
+  top: 55%;
   left: 65%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -98,9 +98,7 @@ body, html{
   cursor: pointer;
   border-radius: 5px;
 }
-.neobtn-thick .btn:hover {
-  background-color: red;
-}
+
    body {
     background-image: url(images/nature.jpg); /* Путь к фоновому изображению */
     background-color: #4c4c4c; /* Цвет фона */
@@ -131,7 +129,28 @@ body, html{
   text-align: center;
 
 }
-.myclass2{
-   width: 20%;
+  .myclass2{
+   width: 23%;
    display: block;
    margin : auto;
+  }
+  .wrapper {
+			text-align: center;
+			background-color: #DCDCDC;
+	   color: #000000;
+	   
+
+		}
+ .wrapper2 {
+			text-align: center;
+			background-color: #DCDCDC;
+	   color: #A9A9A9;
+	 
+	  
+		}
+		 .wrapper3 {
+			
+			background-color: #FFFFFF;
+	   
+		}
+		
