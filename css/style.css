@@ -145,12 +145,52 @@ body, html{
 			text-align: center;
 			background-color: #DCDCDC;
 	   color: #A9A9A9;
+	   background-size: 100% 6em,						100% 6em,						auto;
 	 
 	  
 		}
 		 .wrapper3 {
-			
+			background-size: 100% 6em,						100% 6em,						auto;
 			background-color: #FFFFFF;
 	   
 		}
-		
+.image {
+  background: url(images/city.png);
+  display: flex;
+  align-items: left;
+  justify-content: left;	
+  width: 400px;
+  padding: 30px;
+  border: .5px solid #fff;
+  color: #3с3с3с;
+}
+.image2 {
+  background: url(images/notebook.png);
+  display: flex;
+  align-items: right;
+  justify-content: right;	
+  width: 400px;
+  padding: 30px;
+  border: .5px solid #fff;
+  color: #3с3с3с;
+}
+.image3{
+  background: url(images/phone.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+  width: 400px;
+  padding: 30px;
+  border: .5px solid #fff;
+  color: #3с3с3с;
+}
+.image4{
+  background: url(images/PC.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+  width: 400px;
+  padding: 30px;
+  border: .5px solid #fff;
+  color: #3с3с3с;
+}
