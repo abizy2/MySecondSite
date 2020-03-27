@@ -18,7 +18,9 @@ body, html{
 
 .block{
 	width: 100%;
-	background: var(--background)
+	background: var(--background);
+	display: flex;
+	flex-wrap: wrap;
 }
 #wrapper{
 	max-width: 1000px;
@@ -129,6 +131,14 @@ body, html{
   text-align: center;
 
 }
+.title {
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
+	background: #77777777;
+	padding: 1em;
+}
   .myclass2{
    width: 23%;
    display: block;
@@ -149,7 +159,7 @@ body, html{
 	  
 		}
 		 .wrapper3 {
-			 display: flex;
+			display: flex;
 			background-color: #FFFFFF;
 			margin: 0 .5em;
 			width: 400px;
@@ -160,42 +170,9 @@ body, html{
   padding: 30px;
   margin: 0 .5em;
 }
-
-.image2 {
-  background: url(images/notebook.png);
-  display: flex;	
-  width: 400px;
-  padding: 30px;
  
-}
-.image3{
-  background: url(images/phone.jpg);
-  display: flex;
-  width: 400px;
-  padding: 30px;
-  position: relative;
-  left:500px;
-  top:-600px;
- 
-
-
-}
-.image4{
-  background: url(images/PC.png);
-  display: flex;
-  width: 400px;
-  padding: 30px;
-  margin:  auto;
-  position: relative;
-  left:200px;
-  top:-600px;
-  
-}
 .wrapper4{
 	background : #00BFFF;
 	text-align: center;
-	padding: 30px;
 	color: white;
-	position: relative;
-  top:-600px;
 }
