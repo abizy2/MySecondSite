@@ -150,14 +150,15 @@ body, html{
 		}
 		 .wrapper3 {
 			background-color: #FFFFFF;
+			margin: 0 .5em;
 		}
-.image {
-  background: url(images/city.png);
+.image{
   display: flex;
   width: 400px;
   padding: 30px;
-  
+  margin: 0 .5em;
 }
+
 .image2 {
   background: url(images/notebook.png);
   display: flex;	
