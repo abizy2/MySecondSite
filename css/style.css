@@ -149,11 +149,13 @@ body, html{
 	  
 		}
 		 .wrapper3 {
+			 display: flex;
 			background-color: #FFFFFF;
 			margin: 0 .5em;
+			width: 400px;
+            padding: 30px;
 		}
 .image{
-  display: flex;
   width: 400px;
   padding: 30px;
   margin: 0 .5em;
