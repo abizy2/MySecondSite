@@ -114,7 +114,18 @@ body, html{
   cursor: pointer;
   border-radius: 5px;
 }
-
+button.knopka {
+	color:#000000; 
+	background: #fff; 
+	padding: 10px; 
+	border-radius: 10px;
+	font-size:90%;
+	cursor: pointer;
+	position:absolute;
+     left: 75%;
+     top: 40%;
+ 
+	} 
    body {
     background-image: url(images/nature.jpg); /* Путь к фоновому изображению */
     background-color: #4c4c4c; /* Цвет фона */
@@ -144,9 +155,13 @@ align-items: stretch;
 }
 .box5 {
 line-height: 2.5em;
-padding-left: 0;
-  justify-content: center;
+margin-left: 30%;
+   width: 30%;
   
+}
+.box6 {
+   margin-left: 70%;
+   width: 70%;
 }
 	.panel {
   width: 300px;
@@ -203,4 +218,5 @@ padding-left: 0;
 	background : #00BFFF;
 	text-align: center;
 	color: white;
+	height: 100px;
 }
