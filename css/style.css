@@ -25,7 +25,6 @@ body, html{
 .block2{
 	width: 100%;
 	background: var(--background);
-
 }
 .block3{
 	width: 100%;
@@ -35,6 +34,14 @@ body, html{
   border: .5px solid #fff;
   color: #3с3с3с;
   text-align: center;
+}
+.block4{
+	width: 100%;
+	background: var(--background);
+background:#D3D3D3;
+}
+li{
+	list-style-type: none;
 }
 #wrapper{
 	max-width: 1000px;
