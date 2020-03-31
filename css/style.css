@@ -45,6 +45,9 @@ display:flex;
 li{
 	list-style-type: none;
 }
+a{
+	color:inherit;
+}
 #wrapper{
 	max-width: 1000px;
 	margin: 0 auto; /*один из способов выровнять по горизонтали*/
